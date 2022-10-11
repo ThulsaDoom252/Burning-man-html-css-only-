@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*NULLING*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Anton, sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1172px;
+    margin: 0 auto;
+}
+
+/*Header*/
+.header {
+    background: url("./image/header-bg.jpg") no-repeat center top / cover;
+    padding-top: 57px;
+    max-width: 100vw;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+    font-size: 1rem;
+}
+
+.logo {
+    margin: auto 17% 0 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 2.5rem;
+}
+
+.menu li a {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.tel {
+    color: #FFFFFF;
+    font-size: 1.07rem;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.tel::after {
+    content: "+1 893 839-23-64";
+}
+
+.offer {
+    margin-top: 216px;
+    padding-bottom: 500px;
+    text-transform: uppercase;
+}
+
+.offer p {
+    font-size: 1.875rem;
+    letter-spacing: 0.1em;
+}
+
+.offer h1 {
+    font-size: 6.25rem;
+    letter-spacing: 0.02em;
+}
+
+.offer a {
+    display: block;
+    font-size: 1.0625rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    max-width: 238px;
+    transition: 0.5s ease;
+}
+
+.offer a:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+/*SECTION*/
+section {
+    margin: 125px auto auto auto;
+}
+
+.content-title {
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    color: black;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin: 74px auto auto auto;
+    flex-wrap: wrap;
+    font-size: 0.875rem;
+    color: black;
+    line-height: 1.625rem;
+}
+
+.desc-left, .desc-right {
+    max-width: 564px;
+}
+
+.desc-left h1 {
+    font-size: 1.57rem;
+}
+
+.desc-left p {
+    margin: 32px auto auto auto;
+    font-family: Open Sans;
+    text-align: justify;
+}
+
+.desc-right h1 {
+    font-size: 1.57rem;
+    color: black;
+}
+
+.desc-right p {
+    margin: 19px auto auto auto;
+    font-family: Open Sans;
+    text-align: justify;
+}
+
+.images-container {
+    display: flex;
+    margin: 84px auto auto auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+}
+
+/*/FOOTER*/
+.footer-container {
+    display: flex;
+    justify-content: center;
+    margin: 114px auto auto auto;
+    color: black;
+    font-family: Tahoma;
+}
+
+.footer-container p {
+    padding: 1%;
+}
+
+/*BREAKPOINTS*/
+
+@media (max-width: 1196px) {
+    header {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 1127px) {
+    .description {
+        justify-content: center;
+    }
+
+    .section-container {
+        text-align: center;
+    }
+
+    .desc-left, .desc-right {
+        text-align: center;
+        padding: 1%;
+    }
+}
+
+@media (max-width: 1109px) {
+    .images-container {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .footer-container {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 581px) {
+    .section-container {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 555px) {
+    .offer {
+        text-align: center;
+    }
+
+    .offer a {
+        margin: 0 auto;
+    }
+
+    .tel {
+        position: absolute;
+        top: 20%;
+        font-size: 1.3rem;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 522px) {
+    .nav {
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        margin: auto 10% 0 0;
+    }
+}
+
+
+
+
+
+
+
+
